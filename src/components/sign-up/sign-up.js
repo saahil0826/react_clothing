@@ -32,7 +32,7 @@ export default function SignUp() {
       setPassword("");
       setConfirmPassword("");
     } catch (error) {
-      console.error(error);
+      alert(error);
     }
   };
 
